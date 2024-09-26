@@ -49,7 +49,7 @@ export default async function () {
         });
 
         await Promise.all([
-            page.locator('button[id="onetrust-accept-btn-handler').click(),
+                page.locator(button[id="onetrust-accept-btn-handler"]).click(),
         ]);
 
         let frames = await page.frames();
